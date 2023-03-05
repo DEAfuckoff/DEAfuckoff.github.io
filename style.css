@@ -1,0 +1,151 @@
+*{
+    margin:auto;
+    padding:auto;
+    /* font-family: 'Euphoria Script', cursive; */
+    /* line-height: 120%; */
+}
+
+body{
+    height:100vh;
+    background-color: #000;
+}
+
+#particles-js{
+    height:100%;
+}
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    font-family: 'Montez', cursive;
+    color: #ff0000;
+    font-size: 100px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.count{
+    position: absolute;
+    font-family: 'Montez', cursive;
+    font-size: 55px;
+    font-style: normal; 
+    left: 20%;
+}
+
+/*******Animation**********/
+.animated{
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    font-family: 'Montez', cursive;
+    animation-delay: 0.5s;
+}
+
+.about p{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Quicksand' , sans-serif;
+    position:inherit;
+}
+
+.typed{
+    font-family: 'Quicksand' , sans-serif;
+    font-size: 35px;
+    text-align: start;
+    position:inherit;
+}
+
+/*-----------------------*/
+/*-------ICONS-----------*/
+/*-----------------------*/
+
+.social-icons li{
+    list-style: none;
+    display:inline-block;
+    padding:0 1px;
+    position: relative;
+    top:0px;
+    font-size: 45px;
+    color:rgba(167, 161, 161, 0.78);
+}
+
+.social-icons{
+    text-align: center;
+    margin-top: -30px;
+}
+
+.social-icons li a:link,
+.social-icons li a:visited,
+.social-icons li a:enabled{
+    color:rgba(167, 161, 161, 0.78);
+}
+
+.fa-stack-overflow{
+    transform: scale(0.9);
+}
+.ion-social-linkedin-outline
+{
+    transform: scale(1.1);
+}
+
+.fa-quora{
+    transform: scale(0.8);
+}
+
+.fa-envelope{
+    transform: scale(0.8);
+}
+
+.fa-free-code-camp{
+    transform: scale(0.8);
+}
+
+.fa-file-pdf-o{
+    transform: scale(0.8);
+}
+/*-----------------------*/
+/*-------ICONS:HOVER-----*/
+/*-----------------------*/
+
+.social-icons li i:hover{
+    transform: scale(1.1) rotate(5deg);
+}
+
+.ion-social-linkedin-outline:hover,
+.ion-social-linkedin-outline:active{
+    color:#0077B5;
+}
+
+.fa-free-code-camp:hover,
+.fa-free-code-camp:active{
+    color:#ff0000;
+}
+
+.fa-github:hover,
+.fa-github:active{
+    color: #333;
+}
+
+.fa-quora:hover,
+.fa-quora:active{
+    color:#ff0000;
+}
+
+.fa-stack-overflow:hover,
+.fa-stack-overflow:active{
+    color:#f48024;
+}
+
+.fa-envelope:hover,
+.fa-envelope:active{
+    color:#D44638;
+}
+
+.fa-file-pdf-o:hover,
+.fa-file-pdf-o:active{
+    color:#ff0000;
+}
