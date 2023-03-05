@@ -22,7 +22,7 @@ function animateParticle(particle) {
   anime({
     targets: particle,
     translateY: [
-      { value: window.innerHeight, duration: 2000, easing: "linear" },
+      { value: window.innerHeight, duration: 4000, easing: "linear" },
     ],
     rotate: {
       value: 360,
